@@ -10,7 +10,7 @@ The gridlabd simulation is started by the file [.github/workflows/main.yml](.git
 
 ### Workflow
 
-1. **on:** This section determines when the simulation is run. It current specifies that the simulation will run when a change is made to a file on the `main` or `develop` branches, or when a file is change on a branch that has an open pull request to the `main` or `develop` branches.
+1. **[on](.github/workflows/main.yml#L3)**: This section determines when the simulation is run. It current specifies that the simulation will run when a change is made to a file on the `main` or `develop` branches, or when a file is change on a branch that has an open pull request to the `main` or `develop` branches.
 
 2. **Cache** The cache step checks to see whether the specified file(s) have been downloaded during a previous run and reuses them if possible.  In this case, the `123.glm` file is cached to avoid downloading more often than necessary.
 
