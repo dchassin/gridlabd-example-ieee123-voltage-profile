@@ -15,7 +15,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Run simulation
-      run: gridlabd input/main.glm
+      run: gridlabd main.glm
       
     - name: Save results
       uses: actions/upload-artifact@v2
