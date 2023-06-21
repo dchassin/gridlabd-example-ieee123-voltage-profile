@@ -1,3 +1,5 @@
+[![Simulation](https://github.com/dchassin/gridlabd-example-ieee123-voltage-profile/actions/workflows/main.yml/badge.svg)](https://github.com/dchassin/gridlabd-example-ieee123-voltage-profile/actions/workflows/main.yml)
+
 # IEEE-123 Voltage Profile Example
 
 This example illustrates how to use GridLAB-D to download and solve the IEEE-123 model and output a plot of the voltage profile that can be downloaded for viewing.
