@@ -20,6 +20,6 @@ jobs:
     - name: Save results
       uses: actions/upload-artifact@v2
       with:
-        name: profile.png
-        path: output/profile.png
+        name: IEEE 123 voltage profile
+        path: IEEE-123-voltage-profile.png
       
