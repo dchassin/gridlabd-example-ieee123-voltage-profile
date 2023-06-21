@@ -6,4 +6,4 @@ To view the output, select [Actions](https://github.com/dchassin/gridlabd-exampl
 
 ## How it works
 
-The gridlabd simulation is started by the file [.github/workflows/main.yml](main/.github/workflows/main.yml).
+The gridlabd simulation is started by the file [.github/workflows/main.yml](.github/workflows/main.yml).
