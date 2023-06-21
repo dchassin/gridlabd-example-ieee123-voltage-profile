@@ -22,7 +22,7 @@ The gridlabd simulation is started by the file [.github/workflows/main.yml](.git
 
 The simulation model is given in the file [mail.glm](main.glm).  There are three part to this file.
 
-1. The [`#ifmissing`](main.glm#L1) macro is used to check for the existence of the `123.glm` model file. If the file is not found, then the next command [`#model`](main.glm#L2) is used to get a copy of the model from the [GridLAB-D models repository](https://github.com/arras-energy/gridlabd-models).
+1. The [`#ifmissing`](main.glm#L1) macro is used to check for the existence of the [123.glm](https://github.com/arras-energy/gridlabd-models/blob/master/gridlabd-4/IEEE/123.glm) model file. If the file is not found, then the next command [`#model`](main.glm#L2) is used to get a copy of the model from the [GridLAB-D models repository](https://github.com/arras-energy/gridlabd-models).
 
 2. The [`#include`](main.glm#L4) macro is used to load the [123.glm](https://github.com/arras-energy/gridlabd-models/blob/master/gridlabd-4/IEEE/123.glm) model, this is the only model component loaded.
 
