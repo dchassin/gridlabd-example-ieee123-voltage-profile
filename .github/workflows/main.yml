@@ -15,7 +15,7 @@ jobs:
     - uses: actions/checkout@v3
 
     - name: Cache IEEE 123 model
-      id: ieee-123-model
+      key: ieee-123-model
       uses: actions/cache@v3
       with:
         path: 123.glm
