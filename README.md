@@ -8,9 +8,9 @@ To view the output, select [Actions](https://github.com/dchassin/gridlabd-exampl
 
 ## How it works
 
-The gridlabd simulation is started by the file [.github/workflows/main.yml](.github/workflows/main.yml).  There are four important parts to this file
-
 ### Workflow
+
+The gridlabd simulation is started by the file [.github/workflows/main.yml](.github/workflows/main.yml).  There are four important parts to this file
 
 1. **[On](.github/workflows/main.yml#L3)**: The `on` determines when the simulation is run. It current specifies that the simulation will run when a change is made to a file on the `main` or `develop` branches, or when a file is change on a branch that has an open pull request to the `main` or `develop` branches.
 
