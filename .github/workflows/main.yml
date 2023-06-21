@@ -14,10 +14,12 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
-    - uses: actions/cache@v3
+    - name: Cache IEEE 123 model
+      id: ieee-123-model
+      uses: actions/cache@v3
       with:
         path: 123.glm
-        key: ${{ hashFiles('**/package-lock.json') }}
+        key: ${{ hashFiles('123.glm') }}
 
     - name: Run simulation
       run: gridlabd main.glm
