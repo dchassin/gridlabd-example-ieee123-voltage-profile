@@ -10,13 +10,13 @@ The gridlabd simulation is started by the file [.github/workflows/main.yml](.git
 
 ### Workflow
 
-1. **[on](.github/workflows/main.yml#L3)**: This section determines when the simulation is run. It current specifies that the simulation will run when a change is made to a file on the `main` or `develop` branches, or when a file is change on a branch that has an open pull request to the `main` or `develop` branches.
+1. **[on](.github/workflows/main.yml#L3)**: The `on` determines when the simulation is run. It current specifies that the simulation will run when a change is made to a file on the `main` or `develop` branches, or when a file is change on a branch that has an open pull request to the `main` or `develop` branches.
 
-2. **[Cache](.github/workflows/main.yml#L17)** The cache step checks to see whether the specified file(s) have been downloaded during a previous run and reuses them if possible.  In this case, the `123.glm` file is cached to avoid downloading more often than necessary.
+2. **[Cache](.github/workflows/main.yml#L17)** The `cache` step checks to see whether the specified file(s) have been downloaded during a previous run and reuses them if possible.  In this case, the `123.glm` file is cached to avoid downloading more often than necessary.
 
-3. **[Run](.github/workflows/main.yml#L28)** The run step run the model files itself, the details of which are discussed below.
+3. **[Run](.github/workflows/main.yml#L28)** The `run` step run the model files itself, the details of which are discussed below.
 
-4. **[Save](.github/workflows/main.yml#L31)** The save step makes the specified files available for download as artifacts after the simulation is complete.
+4. **[Save](.github/workflows/main.yml#L31)** The `save` step makes the specified files available for download as artifacts after the simulation is complete.
 
 ### Model
 
