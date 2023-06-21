@@ -14,7 +14,7 @@ This example illustrates the following.
 
 This example shows how to use GridLAB-D to download and solve the IEEE-123 model and output a plot of the voltage profile that can be downloaded later for viewing.
 
-To view the output, select [**Actions**](actions) to show the most recent simulation runs. Select the most recent run completed and download the artifact named `profile.png`.
+To view the output, select [**Actions**](https://github.com/dchassin/gridlabd-example-ieee123-voltage-profile/actions) to show the most recent simulation runs. Select the most recent run completed and download the artifact named `profile.png`.
 
 ## How it works
 
@@ -28,7 +28,7 @@ The gridlabd simulation is started by the [workflow file](.github/workflows/main
 
 3. The [`run`](.github/workflows/main.yml#L28) step run the model files itself, the details of which are discussed below.
 
-4. The [`save`](.github/workflows/main.yml#L31) step makes the specified files available for download as artifacts from the [**Actions**](actions) tab after the simulation is complete.
+4. The [`save`](.github/workflows/main.yml#L31) step makes the specified files available for download as artifacts from the [**Actions**](https://github.com/dchassin/gridlabd-example-ieee123-voltage-profile/actions) tab after the simulation is complete.
 
 ### Model
 
