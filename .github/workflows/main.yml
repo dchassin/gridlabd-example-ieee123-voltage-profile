@@ -14,11 +14,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Setup simulation
-      run: sh <setup.sh 1>output/console.txt 2>&1
-      
     - name: Run simulation
-      run: sh <run.sh 1>output/console.txt 2>&1
+      run: gridlabd input/main.glm 1>output/console.txt 2>&1
       
     - name: Save results
       uses: actions/upload-artifact@v2
