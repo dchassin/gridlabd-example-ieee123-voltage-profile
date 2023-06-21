@@ -19,7 +19,11 @@ jobs:
       uses: actions/cache@v3
       with:
         path: 123.glm
-        key: ${{ hashFiles('**/package-lock.json') }}
+        key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('123.glm') }}
+        restore-keys: |
+          ${{ runner.os }}-build-${{ env.cache-name }}-
+          ${{ runner.os }}-build-
+          ${{ runner.os }}-
 
     - name: Run simulation
       run: gridlabd main.glm
