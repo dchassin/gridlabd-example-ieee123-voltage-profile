@@ -14,7 +14,7 @@ The goal of this lesson is familiarize you with how to setup and run GridLAB-D p
 
 ## Running GridLAB-D using GitHub Actions
 
-You will learn how to use a GridLAB-D subcommand to download a reference model, use the GridLAB-D powerflow solver to compute the voltage solution for the IEEE-123 model, and use the GridLAB-D output converters to generate a voltage profile PNG image that can be downloaded later for viewing.
+You will learn how to use a GridLAB-D subcommand to download a reference model, use the GridLAB-D power flow solver to compute the voltage solution for the IEEE-123 model, and use the GridLAB-D output converters to generate a voltage profile PNG image that can be downloaded later for viewing.
 
 To view the output, select [**Actions**](../../actions) to show the most recent simulation runs. Select the most recent run completed, download, and view the PNG image artifact named **`IEEE 123 Voltage Profile`**.
 
